@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.rtl.min.css"
+        integrity="sha384-PRrgQVJ8NNHGieOA1grGdCTIt4h21CzJs6SnWH4YMQ6G5F5+IEzOHz67L4SQaF0o" crossorigin="anonymous">
+    <title>Programming Courses</title>
+</head>
+<style>
+    * {
+        direction: rtl;
+    }
+</style>
+
+<body style="padding-top: 60px;" dir="rtl">
+    <!-- Navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-xl">
+            <a class="navbar-brand" href="#">My Blog</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">خانه
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-house-heart-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M7.293 1.5a1 1 0 0 1 1.414 0L11 3.793V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v3.293l2.354 2.353a.5.5 0 0 1-.708.707L8 2.207 1.354 8.853a.5.5 0 1 1-.708-.707L7.293 1.5Z" />
+                                <path
+                                    d="m14 9.293-6-6-6 6V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V9.293Zm-6-.811c1.664-1.673 5.825 1.254 0 5.018-5.825-3.764-1.664-6.691 0-5.018Z" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">امکانات
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-hammer" viewBox="0 0 16 16">
+                                <path
+                                    d="M9.972 2.508a.5.5 0 0 0-.16-.556l-.178-.129a5.009 5.009 0 0 0-2.076-.783C6.215.862 4.504 1.229 2.84 3.133H1.786a.5.5 0 0 0-.354.147L.146 4.567a.5.5 0 0 0 0 .706l2.571 2.579a.5.5 0 0 0 .708 0l1.286-1.29a.5.5 0 0 0 .146-.353V5.57l8.387 8.873A.5.5 0 0 0 14 14.5l1.5-1.5a.5.5 0 0 0 .017-.689l-9.129-8.63c.747-.456 1.772-.839 3.112-.839a.5.5 0 0 0 .472-.334z" />
+                            </svg>
+                        </a>
+
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">درباره ما
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-file-person-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm-1 7a3 3 0 1 1-6 0 3 3 0 0 1 6 0zm-3 4c2.623 0 4.146.826 5 1.755V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-1.245C3.854 11.825 5.377 11 8 11z" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- intro -->
+
+
+    <div class="intro">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="text-right">
+                        <h1 class="text-secondary mt-4 mb-4">بلاگ احمدرضا</h1>
+                        <p class="lead">این بلاگ برای مشاهده دوره های آموزشی برنامه نویسی و طراحی سایت ساخته شده است.
+                        </p>
+                        <a class="btn btn-primary btn-lg" href="#">دانلود اپلیکیشن</a>
+                        <a class="btn btn-success btn-lg" href="#">دانلود وب اپلیکیشن</a>
+
+                    </div>
+
+                </div>
+
+                <div class="col-lg-6 d-none d-md-block">
+                    <img class="img-fluid mt-4" src="./images/LFXVjiidVZnfwmf.png">
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    </div>
+
+
+    <!-- posts -->
+
+    <div class="posts py-5 bg-light ">
+        <div class="container">
+            <div>
+                <h4 class="text-secondary m-4">پست‌ها</h4>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="card w-100 mb-4" style="width: 18rem;">
+                        <img src="/images/Wall-3.jpg" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-secondary">عنوان پست</h5>
+                            <p class="card-text lead">این پست مربوط به یادگیری صفر تا صد دوره‌ی بوت‌استرپ 5 می‌باشد.</p>
+                            <div class="d-flex justify-content-end">
+                                <a href="#" class="btn btn-primary">مشاهده کامل</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="card w-100 mb-4" style="width: 18rem;">
+                        <img src="/images/Wall-3.jpg" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-secondary">عنوان پست</h5>
+                            <p class="card-text lead">این پست مربوط به یادگیری صفر تا صد دوره‌ی بوت‌استرپ 5 می‌باشد.</p>
+                            <div class="d-flex justify-content-end">
+                                <a href="#" class="btn btn-primary">مشاهده کامل</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="card w-100 mb-4" style="width: 18rem;">
+                        <img src="/images/Wall-3.jpg" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-secondary">عنوان پست</h5>
+                            <p class="card-text lead">این پست مربوط به یادگیری صفر تا صد دوره‌ی بوت‌استرپ 5 می‌باشد.</p>
+                            <div class="d-flex justify-content-end">
+                                <a href="#" class="btn btn-primary">مشاهده کامل</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="card w-100 mb-4" style="width: 18rem;">
+                        <img src="/images/Wall-3.jpg" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-secondary">عنوان پست</h5>
+                            <p class="card-text lead">این پست مربوط به یادگیری صفر تا صد دوره‌ی بوت‌استرپ 5 می‌باشد.</p>
+                            <div class="d-flex justify-content-end">
+                                <a href="#" class="btn btn-primary">مشاهده کامل</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- accordian -->
+
+    <div class="accordion mb-5">
+        <div class="container">
+            <div>
+                <h4 class="text-secondary m-4">دوره‌های آموزشی</h4>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <img class="img-fluid mb-2" src="./images/freak.avif">
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    جاوااسکریپت
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    جاوااسکریپت یک زبان برنامه نویسی شی‌گراست که برای پویا سازی صفحات وب، برنامه‌نویسی
+                                    موبایل، برنامه نویسی تحت ویندوز و ... کاربرد دارد.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    بوت‌استرپ
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    بوت‌استرپ یک فریم‌ورک برای استفاده بهینه و با سرعت بالا از css می‌باشد.<br>
+                                    آخرین ورژن بوت‌استرپ، بوت‌استرپ 5 میباشد.
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- modal -->
+
+        <div class="modal-section  py-5 bg-light">
+            <div class="container text-center">
+                <h4>My Modal</h4>
+                <p class="text-secondary">My modal section is here.</p>
+                <p class="text-secondary">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam quam dolorum
+                    consectetur accusamus
+                    amet quis dolores quibusdam itaque doloremque hic, laboriosam, provident quo. Ipsum reiciendis
+                    nesciunt aliquid accusantium quam saepe incidunt error expedita ipsam? Sit explicabo necessitatibus
+                    atque ipsam quo numquam similique hic earum laboriosam impedit, nemo ipsum mollitia eveniet quidem
+                    veritatis molestias quia! Molestias alias ipsa iure non laborum?</p>
+                <button class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#myModal">Show
+                    Modal</button>
+                <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Enable
+                    Offvanvas</button>
+
+            </div>
+        </div>
+
+
+
+
+
+        <!-- Modal -->
+
+
+        <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-fluid" src="./images/freak.avif">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- offcanvas -->
+
+
+        <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
+            aria-labelledby="offcanvasWithBothOptionsLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Offcanvas for shortcut</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <p>This is my offcanvaas that activated by my button</p>
+                <img src="./images/LFXVjiidVZnfwmf.png" class="img-fluid">
+            </div>
+        </div>
+
+
+        <!-- forms -->
+
+        <div class="custom-forms">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label mt-3">نام و نام‌خانوادگی</label>
+                            <input type="text" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">ایمیل</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">آدرس ایمیل شما با هیچ کاربری به اشتراک گذاشته نمی‌شود.
+                            </div>
+                        </div>
+
+                        <select class="form-select form-select-lg mb-3 mt-3" aria-label="Large select example">
+                            <option selected>دوره مدنظر خود را انتخاب کنید</option>
+                            <option value="1">جاوااسکریپت</option>
+                            <option value="2">بوت‌استرپ</option>
+                            <option value="3">ری‌اکت</option>
+                        </select>
+
+                        <div class="input-group mb-3 mt-4">
+                            <input type="file" class="form-control" id="inputGroupFile02">
+                            <label class="input-group-text" for="inputGroupFile02">آپلود</label>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <button class="btn btn-primary" data-bs-toggle="tooltip" data-bs-placement="top"
+                            data-bs-title="ارسال شود">
+                            ثبت و ارسال نظر</button>
+
+                    </div>
+
+
+                    <div class="col-lg-6">
+                        <img class="img-fluid" src="./images/bg.jpg">
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- footer  -->
+
+
+        <div class="footer-custom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4">
+                        <img class="img-fluid" src="/images/child-coding.jpg">
+                    </div>
+                    <div class="col-4">
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Accordion Item #1
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <strong>This is the first item's accordion body.</strong> It is shown by
+                                        default, until the collapse plugin adds the appropriate classes that we use to
+                                        style each element. These classes control the overall appearance, as well as the
+                                        showing and hiding via CSS transitions. You can modify any of this with custom
+                                        CSS or overriding our default variables. It's also worth noting that just about
+                                        any HTML can go within the <code>.accordion-body</code>, though the transition
+                                        does limit overflow.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Accordion Item #2
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <strong>This is the second item's accordion body.</strong> It is hidden by
+                                        default, until the collapse plugin adds the appropriate classes that we use to
+                                        style each element. These classes control the overall appearance, as well as the
+                                        showing and hiding via CSS transitions. You can modify any of this with custom
+                                        CSS or overriding our default variables. It's also worth noting that just about
+                                        any HTML can go within the <code>.accordion-body</code>, though the transition
+                                        does limit overflow.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        Accordion Item #3
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <strong>This is the third item's accordion body.</strong> It is hidden by
+                                        default, until the collapse plugin adds the appropriate classes that we use to
+                                        style each element. These classes control the overall appearance, as well as the
+                                        showing and hiding via CSS transitions. You can modify any of this with custom
+                                        CSS or overriding our default variables. It's also worth noting that just about
+                                        any HTML can go within the <code>.accordion-body</code>, though the transition
+                                        does limit overflow.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4"><form class="row g-3">
+                        <div class="col-md-6">
+                          <label for="inputEmail4" class="form-label">ایمیل</label>
+                          <input type="email" class="form-control" id="inputEmail4">
+                        </div>
+                        <div class="col-md-6">
+                          <label for="inputPassword4" class="form-label">رمز عبور</label>
+                          <input type="password" class="form-control" id="inputPassword4">
+                        </div>
+                        <div class="col-12">
+                          <label for="inputAddress" class="form-label">آدرس محل سکونت</label>
+                          <input type="text" class="form-control" id="inputAddress" placeholder="آدرس">
+                        </div>
+                        <div class="col-12">
+                          <label for="inputAddress2" class="form-label">آدرس محل کار</label>
+                          <input type="text" class="form-control" id="inputAddress2" placeholder="محل کار">
+                        </div>
+                        <div class="col-md-6">
+                          <label for="inputCity" class="form-label">شهر</label>
+                          <input type="text" class="form-control" id="inputCity">
+                        </div>
+                        <div class="col-md-4">
+                          <label for="inputState" class="form-label">محله</label>
+                          <select id="inputState" class="form-select">
+                            <option selected>انتخاب کنید.</option>
+                            <option>...</option>
+                          </select>
+                        </div>
+                        <div class="col-md-2">
+                          <label for="inputZip" class="form-label">کدپستی</label>
+                          <input type="text" class="form-control" id="inputZip">
+                        </div>
+                        <div class="col-12">
+                          <div class="form-check">
+                              <input class="form-check-input" type="checkbox" id="gridCheck">
+                              <label class="form-check-label" for="gridCheck">
+                                  با شرایط و قوانین دسایت موافقم.
+                            </label>
+                          </div>
+                        </div>
+                        <div class="col-12">
+                          <button type="submit" class="btn btn-primary">Sign in</button>
+                        </div>
+                      </form></div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js
+"></script>
+        <script>const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+            const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))</script>
+</body>
+
+</html>
